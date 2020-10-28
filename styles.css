@@ -1,0 +1,24 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+.row{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    background-color: dodgerblue;
+    margin: 5px;
+    
+}
